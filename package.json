@@ -1,0 +1,23 @@
+{
+  "name": "production-grade-logger-in-javascript-with-winston",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityasid/Production-grade-logger-in-Javascript-with-Winston.git"
+  },
+  "author": "Aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityasid/Production-grade-logger-in-Javascript-with-Winston/issues"
+  },
+  "homepage": "https://github.com/adityasid/Production-grade-logger-in-Javascript-with-Winston#readme",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
+}
